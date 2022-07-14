@@ -11,6 +11,7 @@
         android:id="@+id/aclbtnAtras"
         android:layout_width="137dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FFC107"
         android:text="Atras" />
 
     <TextView
@@ -35,6 +36,7 @@
             android:layout_width="224dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#FFC107"
             android:text="Ver" />
     </LinearLayout>
 
