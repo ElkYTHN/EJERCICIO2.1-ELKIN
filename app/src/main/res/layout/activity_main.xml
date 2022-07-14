@@ -28,12 +28,13 @@
         android:id="@+id/btnGalery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Galery"
+        android:backgroundTint="#FFC107"
+        android:text="Galeria"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fbtnTomarVideo"
-        app:layout_constraintVertical_bias="0.575" />
+        app:layout_constraintVertical_bias="0.439" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fbtnTomarVideo"
@@ -41,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="108dp"
         android:clickable="true"
-        android:src="@android:drawable/presence_invisible"
+        android:src="@android:drawable/presence_online"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
